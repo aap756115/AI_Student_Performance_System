@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 
 from dotenv import load_dotenv
-from google import genai
+
 
 # Load .env file
 load_dotenv(Path(__file__).resolve().parent.parent / ".env")
